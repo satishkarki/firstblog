@@ -13,7 +13,7 @@ So, I thought to my self, why not start a blog. A blog about the things, I love 
 ## Vim
 A modal interface, where each trigger performs a different action based upon context. 
 
-### Setting up on Linux
+## Setting up on Linux
 ```
 git clone https://github.com/vim/vim.git
 cd vim/src
@@ -26,7 +26,7 @@ sudo apt-get update
 sudo apt-get install vim-gtk
 ```
 We can start the editor by typing `vim` or `vi`. On older systems the two are different binaries.
-### Verifying installation and trouble shooting
+## Verifying installation and trouble shooting
 ```
 vim --version
 ```
