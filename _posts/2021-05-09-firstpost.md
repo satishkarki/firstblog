@@ -2,6 +2,7 @@
 layout: post
 title: "Mastering Vim"
 date: 2021-05-10
+categories: Vim
 ---
 
 <p align="center">

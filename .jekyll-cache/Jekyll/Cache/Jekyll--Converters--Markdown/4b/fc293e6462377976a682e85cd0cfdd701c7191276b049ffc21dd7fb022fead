@@ -1,4 +1,4 @@
-I"É<div class="blurb">
+I"(<div class="blurb">
 	<h1>Hi there, I'm Satish Karki!</h1>
 	<p>Here, I write about the things I stumbled across the boulevard of Information Technology. <a href="/about">Read more about my life...</a></p>
 </div>
@@ -13,8 +13,12 @@
 
 <hr style="height:2px;border-width:0;color:blue;background-color:blue" />
 
-<h2>Here is the list of my blog post</h2>
+<h2>Here is the list of my blog post (more of a personal notes)</h2>
 <ul>
+	
+	  <li>
+		<a href="/blog/2021/05/10/secondpost">test</a>
+	  </li>
 	
 	  <li>
 		<a href="/blog/2021/05/10/firstpost">Mastering Vim</a>
