@@ -1,0 +1,24 @@
+I"O<div class="blurb">
+	<h1>Hi there, I'm Satish Karki!</h1>
+	<p>Here, I write about the things I stumbled across the boulevard of Information Technology. <a href="/about">Read more about my life...</a></p>
+</div>
+<!-- /.blurb -->
+<hr style="height:2px;border-width:0;color:blue;background-color:blue" />
+
+<p><strong>Did you know?</strong> Google receives over 63,000 searches per second on any given day. That’s the average figure of how many people use Google a day, which translate into at least 2 trillion searches per year, 3.8 million searches per minute, 228 million searches per hour, and 5.6 billion searches per day. Pretty impressive, right? <a href="https://www.internetlivestats.com/">Check it out.</a></p>
+
+<p>It takes about 50 milliseconds (that’s 0.05 seconds) for anyone to form an opinion about a website. It determines whether you like my site or not, whether you will stay or leave. If you are still reading this, Hurray!!! I choose to believe, you haven’t made an extreme level of snap judgement about my homepage.</p>
+
+<p>However, if I were you, I would have swiftly closed this tab (`CTRL+W’ is the keyboard shortcut)</p>
+
+<hr style="height:2px;border-width:0;color:blue;background-color:blue" />
+
+<h2>Here is the list of my blog post</h2>
+<ul>
+	
+	  <li>
+		<a href="/blog/2021/05/10/firstpost">Mastering Vim</a>
+	  </li>
+	
+  </ul>
+:ET
