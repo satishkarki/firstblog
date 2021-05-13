@@ -3,7 +3,7 @@ layout: default
 title: Satish Karki
 ---
 <div class="blurb">
-	<h1>Hi there, I'm Satish Karki!</h1>
+	<h1>Hi there!, I'm Satish Karki</h1>
 	<p>Here, I write about the things I stumbled across the boulevard of Information Technology. <a href="/about">Read more about my life...</a></p>
 </div><!-- /.blurb -->
 <hr style="height:2px;border-width:0;color:blue;background-color:blue">

@@ -3,8 +3,7 @@ layout: default
 title: CV
 ---
 <div class="blurb">
-	<h1>Hi there, This is my CV!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+	<h1>CV</h1>
 </div><!-- /.blurb -->
-***
-You Can [Download](/assets/Satish_Karki_Resume.pdf) My Resume from here.....
+You can [download](/assets/Satish_Karki_Resume.pdf) my Resume from here.....
+<hr style="height:2px;border-width:0;color:blue;background-color:blue">
