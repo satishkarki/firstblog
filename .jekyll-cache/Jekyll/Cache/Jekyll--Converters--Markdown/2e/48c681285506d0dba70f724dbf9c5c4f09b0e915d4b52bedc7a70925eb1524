@@ -1,0 +1,36 @@
+I"B<div class="blurb">
+	<h1>Resume/CV</h1>
+</div>
+<!-- /.blurb -->
+<p>You can <a href="/assets/Satish_Karki_Resume.pdf">download</a> my Resume from here…..</p>
+<hr style="height:2px;border-width:0;color:blue;background-color:blue" />
+
+<h2 id="objective">Objective</h2>
+<p>I’m seeking a career in <strong>Information Security</strong> via an <strong>entry-level or associate</strong>-level position utilizing my demonstrated logical, analytical, and communication skills developed through over 5 years of experience in the field of engineering and IT.</p>
+
+<p>Ideally, I’d be able to incorporate my electrical <strong>engineering</strong> background and passion for Information System, perhaps in the field of <strong>IT Security</strong> Specialist or <strong>System Admin</strong>.</p>
+
+<h2 id="profile">Profile</h2>
+
+<ul>
+  <li>Upcoming Georgian College graduate offering a strong academic background in IT, Data Analysis and Electrical Engineering.</li>
+  <li>Able to quickly embrace new ideas, methods and applying them correctly</li>
+  <li>Skilled problem-solver able to communicate with users at all levels of technical proficiency</li>
+</ul>
+
+<h2 id="skill">Skill</h2>
+<ul>
+  <li>System: Linux, Windows, PaloAlto Firewall</li>
+  <li>Tools: Office 365, VMWare, Autopsy, Tableau</li>
+  <li>Programming: Python, Shell Scripting, SQL, HTML, CSS, Jekyll</li>
+  <li>Cloud: AWS Cloud Foundation, GCP, Microsoft Azure Fundamentals</li>
+</ul>
+
+<h2 id="education">Education</h2>
+<ul>
+  <li>Post Graduate Degree in Information System Security, <em>Georgian College</em>, Barrie, ON, Canada, 2020-2021</li>
+  <li>Post Graduate Degree in Big Data Analytics, <em>Georgian College</em>, Barrie, ON, Canada, 2020-2021</li>
+  <li>Bachelor’s Degree in Electrical &amp; Electronics Engineering <em>Kathmandu University</em>, Kathmandu, Nepal, 2013-2017</li>
+</ul>
+
+:ET
