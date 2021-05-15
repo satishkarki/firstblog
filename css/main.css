@@ -12,6 +12,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    font-size: 1.2em
 }
 a {
     text-decoration: none;
@@ -44,7 +45,12 @@ ul.posts li {
     font-size: 1.2em;
 }
 
-div h2 ul li {
-    list-style: none;
-    font-size: 1.2em;
+li {
+    font-size: 1.8em;
+    line-height: 1.4em;
+    color: #333;
+}
+h3,h4 {
+    font-size: 1.8em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
