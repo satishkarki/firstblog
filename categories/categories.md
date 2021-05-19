@@ -4,7 +4,7 @@ permalink: /categories/
 title: Categories
 ---
 
-## Tags
+# Tags
 <hr style="height:2px;border-width:0;color:blue;background-color:blue">
 <div id="archives">
 {% for category in site.categories %}
