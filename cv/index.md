@@ -25,7 +25,7 @@ Ideally, I'd be able to incorporate my electrical **engineering** background and
 
 ## Education
 * Post Graduate Degree in **Information System Security**, [*Georgian College*](https://www.georgiancollege.ca/), Barrie, ON, Canada, 2020-2021
-* Post Graduate Degree in **Big Data Analytics**, [*Georgian College*](https://www.georgiancollege.ca/), Barrie, ON, Canada, 2020-2021
+* Post Graduate Degree in **Big Data Analytics**, [*Georgian College*](https://www.georgiancollege.ca/), Barrie, ON, Canada, 2019-2020
 * Bachelor's Degree in **Electrical & Electronics Engineering** [*Kathmandu University*](https://ku.edu.np/program/ung-in-electrical-and-electronics-engineering), Kathmandu, Nepal, 2013-2017
 
 ## Projects
