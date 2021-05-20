@@ -1,0 +1,28 @@
+I"�<div class="blurb">
+	<h1>Hi there! I'm Satish Karki</h1>
+	<p>Here, I write about the things I stumbled across the boulevard of Information Technology. <a href="/about">Read more about my life...</a></p>
+</div>
+<!-- /.blurb -->
+<hr style="height:2px;border-width:0;color:blue;background-color:blue" />
+
+<p><strong>Did you know?</strong> Google receives over 63,000 searches per second on any given day. That’s the average figure of how many people use Google a day, which translates into at least 5.6 billion searches per day. Pretty impressive, right? <a href="https://www.internetlivestats.com/">Check it out.</a></p>
+
+<p>It takes about 50 milliseconds (that’s 0.05 seconds) for anyone to form an opinion about a website. If you are still reading this, Hurray!!! I choose to believe, you haven’t made an extreme level of snap judgment about my homepage.</p>
+
+<p>However, if I were you, I would have swiftly closed this tab (<code class="language-plaintext highlighter-rouge">CTRL+W</code> is the keyboard shortcut, don’t do it, Plz!). I know my Github page sucks. I am still learning how <a href="https://jekyllrb.com/">Jekyll</a> works, and with the mystical power of HTML and CSS, I will embellish this page (<em>fingers crossed</em>). Appearance matters, a front-end girl would certainly say, but I am more of a terminal guy. Teehee.</p>
+
+<hr style="height:2px;border-width:0;color:blue;background-color:blue" />
+
+<h2>Here is the list of my blog post (more of a personal note)</h2>
+<ul>
+	
+	  <li>
+		<a href="/blog/2021/05/19/googleitcertificate">Googleitcertificate</a>
+	  </li>
+	
+	  <li>
+		<a href="/blog/2021/05/10/firstpost">Mastering Vim</a>
+	  </li>
+	
+  </ul>
+:ET
