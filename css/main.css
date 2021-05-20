@@ -21,7 +21,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
+h {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -41,11 +41,10 @@ ul.posts {
 }
 
 ul.posts li {
-    list-style: none;
+    list-style: square;
     font-size: 1.2em;
 }
-
-li {
+ul li{
     font-size: 1.8em;
     line-height: 1.4em;
     color: #333;
@@ -54,8 +53,8 @@ h3,h4 {
     font-size: 1.8em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-ul li ul li {
-    font-size: 1.8em;
-    line-height: 1.4em;
-    color: #333;
-}
+li { font-size: 32px }
+li li { font-size: 32px }
+li li li { font-size: 32px }
+li li li li { font-size: 32px }
+li li li li li { font-size: 32px }
