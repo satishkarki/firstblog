@@ -7,7 +7,7 @@ categories: Vim
 
 <p align="center">
 <!--- <img src="https://miro.medium.com/max/1022/0*6ve47nqg93ZzZxws.png" width="100" height="100" border="10"/> --->
-<img src="/assets/VIM.png" width="100" height="100" border="10"/>
+<img src="/assets/firstblog/VIM.png" width="100" height="100" border="10"/>
 </p>
 So, I thought to my self, why not start a blog. A blog about the things, I love doing. The first thing I needed was a good text editor. Dennis Simpson and his [courses](https://zonzorp.github.io/) about Information System Security introduced me to the Linux world. The guy was a wizard with Vim. I wished to be like him. Here I am now, with [The Ultimate Markdown Cheat Sheet](https://towardsdatascience.com/the-ultimate-markdown-cheat-sheet-3d3976b31a0) and the book **Mastering Vim** by Ruslan Osipov hoping one day I will be like Dennis.
 
@@ -41,14 +41,22 @@ I am not gonna talk about the .vimrc files. It is a different world. It is the c
  
 ## Interacting with Vim
 * Line Starting with **double quote** " are comments and are ignored by Vim
-* Pressing colon : character enters a command line mode
-* If you have already opened vim, type **:e file_name** to load a file
-* :e [ dit ]
+* Pressing colon : character enters a command line mode     
+* **Swap Files** keep track of the changes made and can be used to recover if Vim is not closed properly, hit r to recover swap file or d to delete it
+* :e [ dit ], :e file_name
 * :w [ rite ]
 * :q [ uit ]
 * :q! [ force quit without saving ] 
 * :wq [ Combines two commands write & Quit ]
-* **Swap Files** keep track of the changes made and can be used to recover if Vim is not closed properly
-* `set directory=$HOME/vim/swap//`
-* **For Windows** `set directory=%USERDATA%\.vim\swap//`
+
+## Navigation Key
 * **Moving around** h: Left arrow, j: Down arrow, k: Up arrow, l: Right Arrow
+* **word** is a sequence of letters, digits, and underscores separeted by white space while **WORD** is a sequence of any non-blank characters separated by white space
+* **w** Move forward by word
+* **e** Moved forward until the end of the word
+* **b** Move backwards to the beginning of the word
+* **W** Move forward by WORD
+* **E** Moved forward until the end of the WORD
+* **B** Move backwards to the beginning of the WORD
+
+![Navigation](/assets/firstblog/navigation.jpg)
