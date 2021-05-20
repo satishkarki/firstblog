@@ -1,4 +1,4 @@
-I"e<p align="center">
+I"Ø<p align="center">
 <!--- <img src="https://miro.medium.com/max/1022/0*6ve47nqg93ZzZxws.png" width="100" height="100" border="10"/> --->
 <img src="/assets/firstblog/VIM.png" width="100" height="100" border="10" />
 </p>
@@ -56,4 +56,26 @@ sudo apt-get install vim-gtk
 </ul>
 
 <p><img src="/assets/firstblog/navigation.jpg" alt="Navigation" /></p>
+
+<ul>
+  <li><strong>{</strong> Move back by one paragraph</li>
+  <li><strong>}</strong> Move forward by one paragraph</li>
+</ul>
+
+<h2 id="making-simple-edit-in-insert-mode">Making Simple Edit in Insert Mode</h2>
+<ul>
+  <li><strong>c</strong> Stands for Change, Compound Command ( a command that needs to be followed by another command), Example: cw cb c3e c4l cW</li>
+  <li><strong>d</strong> Stands for delete, Example: dw db dW</li>
+  <li><strong>cc</strong> Clears the whole line and enters insert mode. Preserves current indentation level, which is
+useful when coding</li>
+  <li><strong>dd</strong> Deletes an entire line</li>
+</ul>
+
+<h2 id="persistent-undo-and-repeat">Persistent undo and repeat</h2>
+<ul>
+  <li><strong>u</strong> to undo a last operation</li>
+  <li><strong>Ctrl+r</strong> to redo it</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Vim also allows you to persist undo history between sessions, which is great if you want to undo (or remember) something you've done a few days ago! You can enable persistent undo by adding the following line to your .vimrc:</code> <strong>set undofile</strong></p>
 :ET

@@ -1,0 +1,86 @@
+I"�<p align="center">
+<!--- <img src="https://miro.medium.com/max/1022/0*6ve47nqg93ZzZxws.png" width="100" height="100" border="10"/> --->
+<img src="/assets/firstblog/VIM.png" width="100" height="100" border="10" />
+</p>
+<p>So, I thought to my self, why not start a blog. A blog about the things, I love doing. The first thing I needed was a good text editor. Dennis Simpson and his <a href="https://zonzorp.github.io/">courses</a> about Information System Security introduced me to the Linux world. The guy was a wizard with Vim. I wished to be like him. Here I am now, with <a href="https://towardsdatascience.com/the-ultimate-markdown-cheat-sheet-3d3976b31a0">The Ultimate Markdown Cheat Sheet</a> and the book <strong>Mastering Vim</strong> by Ruslan Osipov hoping one day I will be like Dennis.</p>
+
+<hr />
+<h2 id="vim">Vim</h2>
+<p>A modal interface, where each trigger performs a different action based upon context.</p>
+
+<h2 id="setting-up-on-linux">Setting up on Linux</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/vim/vim.git
+cd vim/src
+make
+sudo make install
+</code></pre></div></div>
+<p>We can update Vim using a package manger as well.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get update
+sudo apt-get install vim-gtk
+</code></pre></div></div>
+<p>We can start the editor by typing <code class="language-plaintext highlighter-rouge">vim</code> or <code class="language-plaintext highlighter-rouge">vi</code>. On older systems the two are different binaries. There are graphical version of Vim like Vanilla Vim and GVim.</p>
+<h2 id="verifying-installation-and-trouble-shooting">Verifying installation and trouble shooting</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vim --version
+</code></pre></div></div>
+<p>In output, a set of features having a + and a - infront of them will be shown. For example, Vim if complied with Python 2 support will dispaly (+python) instead of Python3 support (-python3)</p>
+
+<p>I am not gonna talk about the .vimrc files. It is a different world. It is the configuration file for Vim where we can configure things like syntax highlighting, consistent indentation etc.</p>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">I've been using Vim for about 2 years now, mostly because I can't figure out how to exit it.</code></p>
+</blockquote>
+
+<hr />
+
+<h2 id="interacting-with-vim">Interacting with Vim</h2>
+<ul>
+  <li>Line Starting with <strong>double quote</strong> “ are comments and are ignored by Vim</li>
+  <li>Pressing colon : character enters a command line mode</li>
+  <li><strong>Swap Files</strong> keep track of the changes made and can be used to recover if Vim is not closed properly, hit r to recover swap file or d to delete it</li>
+  <li>:e [ dit ], :e file_name</li>
+  <li>:w [ rite ]</li>
+  <li>:q [ uit ]</li>
+  <li>:q! [ force quit without saving ]</li>
+  <li>:wq [ Combines two commands write &amp; Quit ]</li>
+</ul>
+
+<h2 id="navigation-key">Navigation Key</h2>
+<ul>
+  <li><strong>Moving around</strong> h: Left arrow, j: Down arrow, k: Up arrow, l: Right Arrow</li>
+  <li><strong>word</strong> is a sequence of letters, digits, and underscores separeted by white space while <strong>WORD</strong> is a sequence of any non-blank characters separated by white space</li>
+  <li><strong>w</strong> Move forward by word</li>
+  <li><strong>e</strong> Moved forward until the end of the word</li>
+  <li><strong>b</strong> Move backwards to the beginning of the word</li>
+  <li><strong>W</strong> Move forward by WORD</li>
+  <li><strong>E</strong> Moved forward until the end of the WORD</li>
+  <li><strong>B</strong> Move backwards to the beginning of the WORD</li>
+</ul>
+
+<p><img src="/assets/firstblog/navigation.jpg" alt="Navigation" /></p>
+
+<ul>
+  <li><strong>{</strong> Move back by one paragraph</li>
+  <li><strong>}</strong> Move forward by one paragraph</li>
+</ul>
+
+<h2 id="making-simple-edit-in-insert-mode">Making Simple Edit in Insert Mode</h2>
+<ul>
+  <li><strong>c</strong> Stands for Change, Compound Command ( a command that needs to be followed by another command), Example: cw cb c3e c4l cW</li>
+  <li><strong>d</strong> Stands for delete, Example: dw db dW</li>
+  <li><strong>cc</strong> Clears the whole line and enters insert mode. Preserves current indentation level, which is
+useful when coding</li>
+  <li><strong>dd</strong> Deletes an entire line</li>
+</ul>
+
+<h2 id="persistent-undo-and-repeat">Persistent undo and repeat</h2>
+<ul>
+  <li><strong>u</strong> to undo a last operation</li>
+  <li><strong>Ctrl+r</strong> to redo it
+    <blockquote>
+      <blockquote>
+        <p>Vim also allows you to persist undo history between sessions, which is great if you want to
+undo (or remember) something you’ve done a few days ago! You can enable persistent undo by adding the following line to your .vimrc: <strong>set undofile</strong></p>
+      </blockquote>
+    </blockquote>
+  </li>
+</ul>
+:ET

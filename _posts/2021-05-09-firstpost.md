@@ -60,3 +60,19 @@ I am not gonna talk about the .vimrc files. It is a different world. It is the c
 * **B** Move backwards to the beginning of the WORD
 
 ![Navigation](/assets/firstblog/navigation.jpg)
+
+* **{** Move back by one paragraph
+* **}** Move forward by one paragraph
+
+## Making Simple Edit in Insert Mode
+* **c** Stands for Change, Compound Command ( a command that needs to be followed by another command), Example: cw cb c3e c4l cW
+* **d** Stands for delete, Example: dw db dW
+* **cc** Clears the whole line and enters insert mode. Preserves current indentation level, which is
+useful when coding
+* **dd** Deletes an entire line
+
+## Persistent undo and repeat
+* **u** to undo a last operation
+* **Ctrl+r** to redo it
+
+`Vim also allows you to persist undo history between sessions, which is great if you want to undo (or remember) something you've done a few days ago! You can enable persistent undo by adding the following line to your .vimrc:` **set undofile**
