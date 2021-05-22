@@ -1,4 +1,17 @@
-I"æ<h1 id="week-2--hardware">Week 2 : Hardware</h1>
+I"…*<p>This blog is about the <strong>‚ÄúGoogle IT Support Professional Certificate‚Äù</strong> which is available in <a href="https://www.coursera.org/professional-certificates/google-it-support">Coursera</a>. There are 5 Courses in this Professional Certificate.</p>
+<ul>
+  <li><a href="https://www.coursera.org/learn/technical-support-fundamentals?specialization=google-it-support">Technical Support Fundamentals</a></li>
+  <li><a href="https://www.coursera.org/learn/computer-networking?specialization=google-it-support">The Bits and Bytes of Computer Networking</a></li>
+  <li><a href="https://www.coursera.org/learn/os-power-user?specialization=google-it-support">Operating Systems and You: Becoming a Power User</a></li>
+  <li><a href="https://www.coursera.org/learn/system-administration-it-infrastructure-services?specialization=google-it-support">System Administration and IT Infrastructure Services</a></li>
+  <li><a href="https://www.coursera.org/learn/it-security?specialization=google-it-support">IT Secuirty: Defense against the digital dark arts</a></li>
+</ul>
+<hr style="height:2px;border-width:0;color:blue;background-color:blue" />
+
+<p>This program prepares me for the <a href="https://www.comptia.org/certifications/a">CompTIA A+</a> exams. This blog is about the first course <a href="https://www.coursera.org/learn/technical-support-fundamentals?specialization=google-it-support">Technical Support Fundamentals</a> and summarizes the things I found useful.</p>
+<hr style="height:2px;border-width:0;color:blue;background-color:blue" />
+
+<h1 id="week-2--hardware">Week 2 : Hardware</h1>
 
 <h2 id="the-modern-computer">The Modern Computer</h2>
 
@@ -91,7 +104,69 @@
       </li>
     </ul>
   </li>
-  <li><strong>Storage</strong></li>
+  <li><strong>Storage</strong>
+    <ul>
+      <li>The smallest unit of a data storage is a bit</li>
+      <li>8 bits= 1 byte, a single byte can hold a letter, number or a symbol</li>
+      <li>Two basic types of disk drive: HDD and SSD
+ ATA interfaces: Advanced Technology Attachment
+        <ul>
+          <li>Serial ATA (SATA): hot swappable: you don‚Äôt have to turn of your machine to plug in SATA</li>
+          <li>NVMe : Non volatile memory express, Instead of using a cable to connect your drive to your machine, the drive was added as an expansion slot, which allows for greater throughput of data and increased efficiency</li>
+        </ul>
+      </li>
+      <li><strong>What is the difference between kB and KB?</strong>
+        <ul>
+          <li>kB=1000 bytes where as KB=1024 bytes (This binary interpretation of metrics prefixes is still prominently used by Microsoft Windows)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Power Supplies</strong>
+    <ul>
+      <li>PSU: Power Supplies Unit</li>
+      <li>Windows: battery report</li>
+    </ul>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  powercfg /batteryreport [ /duration days ]
+</code></pre></div>    </div>
+    <ul>
+      <li>Read more about batteries and charge cycle for  <a href="https://docs.microsoft.com/windows-hardware/design/device-experiences/powercfg-command-line-options#option_batteryreport">Windows</a> or <a href="https://support.apple.com/HT201585">Macs.</a></li>
+      <li>Learn how to maximize your batteries for <a href="https://www.apple.com/batteries/maximizing-performance/">iOS </a>or <a href="https://support.google.com/android/answer/7664358">Android.</a></li>
+    </ul>
+  </li>
+  <li><strong>Mobile Devices</strong>
+    <ul>
+      <li>SoC: System on a chip, a system on a chip packs the CPU, RAM, and sometimes even the storage onto a single chip</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Peripherals</strong></p>
+
+    <ul>
+      <li>USB: Universal Serial Bus
+        <ul>
+          <li>USB 2.0 : Transfer speeds of 480 Mb/s, color: Black</li>
+          <li>USB 3.0 : Transfer speeds of 5 Gb/s, color: Blue</li>
+          <li>USB 3.1 : Transfer speeds of 10 Gb/s, color: Teal</li>
+          <li><strong>Note</strong>: <em>MB is megabyte or unit of data storage, while Mb/s is a megabit per sec, which is a unit of data transfer rate</em></li>
+          <li>Type C connector</li>
+          <li>More about the USB <a href="https://en.wikipedia.org/wiki/USB">here</a></li>
+        </ul>
+      </li>
+      <li><a href="https://en.wikipedia.org/wiki/Digital_Visual_Interface#Connector">DVI</a> : Digital Visual Interface</li>
+      <li><a href="https://en.wikipedia.org/wiki/HDMI#Connectors">HDMI</a>: High Definition Multimedia Interface</li>
+      <li><a href="https://en.wikipedia.org/wiki/VGA_connector">VGA connector</a> : Video Graphic Array</li>
+      <li><a href="https://en.wikipedia.org/wiki/DisplayPort#Full-size_DisplayPort_connector">Display Port</a></li>
+      <li>Connecting projector to computer
+        <ul>
+          <li><a href="https://support.microsoft.com/help/27911/windows-10-connect-to-a-projector-or-pc">Windows - How to connect to a projector or PC</a></li>
+          <li><a href="https://support.apple.com/guide/mac-help/mchl5fdd37ce/mac">MacOS - How to connect a display, TV or projector to Mac</a></li>
+          <li><a href="https://help.ubuntu.com/stable/ubuntu-help/display-dual-monitors.html">Ubuntu - How to connect another monitor to your computer</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ul>
 
 :ET

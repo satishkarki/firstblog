@@ -14,7 +14,7 @@ It takes about 50 milliseconds (that's 0.05 seconds) for anyone to form an opini
 However, if I were you, I would have swiftly closed this tab (`CTRL+W` is the keyboard shortcut, don't do it, Plz!). I know my Github page sucks. I am still learning how [Jekyll](https://jekyllrb.com/) works, and with the mystical power of HTML and CSS, I will embellish this page (*fingers crossed*). Appearance matters, a front-end girl would certainly say, but I am more of a terminal guy. Teehee. 
  
 <hr style="height:2px;border-width:0;color:blue;background-color:blue">
-<h2>Here is the list of my blog post (more of a personal note)</h2>
+<h2>Here is the list of my blog post (more of a info-retention)</h2>
 <ul>
 	{% for post in site.posts %}
 	  <li>

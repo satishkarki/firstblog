@@ -1,0 +1,170 @@
+I"�*<p>This blog is about the <strong>“Google IT Support Professional Certificate”</strong> which is available in <a href="https://www.coursera.org/professional-certificates/google-it-support">Coursera</a>. There are 5 Courses in this Professional Certificate.</p>
+<ul>
+  <li><a href="https://www.coursera.org/learn/technical-support-fundamentals?specialization=google-it-support">Technical Support Fundamentals</a></li>
+  <li><a href="https://www.coursera.org/learn/computer-networking?specialization=google-it-support">The Bits and Bytes of Computer Networking</a></li>
+  <li><a href="https://www.coursera.org/learn/os-power-user?specialization=google-it-support">Operating Systems and You: Becoming a Power User</a></li>
+  <li><a href="https://www.coursera.org/learn/system-administration-it-infrastructure-services?specialization=google-it-support">System Administration and IT Infrastructure Services</a></li>
+  <li><a href="https://www.coursera.org/learn/it-security?specialization=google-it-support">IT Secuirty: Defense against the digital dark arts</a></li>
+</ul>
+<hr style="height:2px;border-width:0;color:blue;background-color:blue" />
+
+<p>This program prepares me for the <a href="https://www.comptia.org/certifications/a">CompTIA A+</a> exams. This blog is about the first course <a href="https://www.coursera.org/learn/technical-support-fundamentals?specialization=google-it-support">Technical Support Fundamentals</a> and summarizes the things I found useful.</p>
+<hr style="height:2px;border-width:0;color:blue;background-color:blue" />
+
+<h1 id="week-2--hardware">Week 2 : Hardware</h1>
+
+<h2 id="the-modern-computer">The Modern Computer</h2>
+
+<ul>
+  <li><strong>Port</strong>
+    <ul>
+      <li>Connection points that we can  connect devices to that extend the functionality of our computers</li>
+    </ul>
+  </li>
+  <li>External Data Bus
+    <ul>
+      <li>It is a row of wires that interconnects the parts of the computers , kind of the veins in our body. The EDB comes in different sizes, 8 bit, 16 bit, 32, even 64.</li>
+      <li>Right now, were just going to stick with using an EDB with 8 bits in our examples. Sending 1 byte at a time.</li>
+    </ul>
+  </li>
+  <li><strong>Registers</strong>
+    <ul>
+      <li>They let us store the data that our CPU works with. If for example, our CPU wanted to add two numbers, one number would be stored in a register a. Another number would be stored in register b. The result of those two numbers would be stored in register c.</li>
+    </ul>
+  </li>
+  <li><strong>RAM</strong>
+    <ul>
+      <li>Remember that our programs are copied into RAM for the CPU to read. RAM is memory that is randomly accessed, allowing our CPU to read from any part of RAM as quickly as any other part.</li>
+    </ul>
+  </li>
+  <li><strong>Memory Controller Chip</strong>
+    <ul>
+      <li>The MCC is the bridge between CPU and RAM. You can think of it, a nerve in your brain connecting to your memories.</li>
+    </ul>
+  </li>
+  <li><strong>Address Bus</strong>
+    <ul>
+      <li>It connects the CPU to the MCC, and sends over the location of the data, but not the data itself. Then the MCC takes the address and looks for the data. And then data is then sent over the EDB.</li>
+    </ul>
+  </li>
+  <li><strong>Cache</strong>
+    <ul>
+      <li>Cache is smaller than RAM, but it let’s us store data that we use often, and let’s us quickly reference it. There are three different cache levels in a CPU, L1, L2, and L3. <strong>L1 is the smallest and fastest cache.</strong></li>
+    </ul>
+  </li>
+  <li><strong>Clock</strong>
+    <ul>
+      <li>Our CPU has an internal clock that keeps its operational in sync. It connects to a special wire called Clock wire. When you send or receive data, it sends a voltage to that clock wire to let the CPU know it can start doing calculations. Think of our clock wires as the ticking of a clock. For every tick, the CPU does one cycle of operations. When you send a voltage to the clock wire, it’s referred to as a clock cycle. If you have lots of data you need to process in a command. You need to run lots of clock cycles</li>
+      <li>CPU labeled with 3.4 ghz refers to the clock speed of the CPU, i.e. 3.4 billion cycles per seconds</li>
+      <li><a href="https://downloadcenter.intel.com/download/29183/Intel-Extreme-Tuning-Utility-Intel-XTU-">Intel CPU: Extreme Tuning Utility</a> download link. Even if we are not overclocking, it is a great tool to monitor the CPU load, temperature and run benchmark</li>
+      <li><a href="https://www.digitaltrends.com/computing/how-to-overclock-your-cpu/">Overclocking</a> is used by gamers. Normally the CPU speed is less than its maximum limits but gamers increases it for more performance</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="components">Components</h2>
+
+<ul>
+  <li><strong>CPU</strong>
+    <ul>
+      <li>Instruction sets are hard-coded into our CPU. So different CPU manufacturers may use different instructions sets. By instruction means additions, subtraction</li>
+      <li>There are two types of  CPU sockets
+        <ul>
+          <li><strong>Land Grid Array</strong> LGA : Pins stick out of Motherboard</li>
+          <li><strong>Ping Grid Array</strong> PGA: Pins stick out of Processor it self</li>
+        </ul>
+      </li>
+      <li>32 bits and 64 bits architecture</li>
+      <li>64 bit computing](https://en.wikipedia.org/wiki/64-bit_computing#32-bit_vs_64-bit…)</li>
+    </ul>
+  </li>
+  <li><strong>RAM</strong>
+    <ul>
+      <li>Almost all RAM is volatile, which means that once we power off our machines, the data stored in RAM is cleared.</li>
+      <li>DRAM: Dynamic Random Access Memory</li>
+      <li>Memory Sticks:  it is where the DRAM is placed. DIMM (Dual inline Memory Module) , SDRAM (Synchronous DRAM) is synchronized to our system’s clock speed allowing faster processing of data, <strong>DDR SDRAM</strong> (Double data rate SDRAM)  DDR1 , DDR 2, DDR 3 and now DDR 4.</li>
+    </ul>
+  </li>
+  <li><strong>Motherboard</strong>
+    <ul>
+      <li>Made of chipset. Made of two chips:
+        <ul>
+          <li><strong>Northbridge</strong> : interconnects stuff like RAM and video cards</li>
+          <li><strong>Southbridge</strong> : maintains our IO or input/output controllers, like hard drives and USB devices that input and output data</li>
+          <li><strong>Expansion Slots</strong>:  give us the ability to increase the functionality of our computer. If you want to upgrade your graphics card, you could purchase one and just install it on your motherboard through the expansion slot</li>
+          <li>The standard for an expansion slot today is the <strong>PCI Express or Peripheral Component Interconnect Express</strong>. A PCIe bus looks like a slot on the motherboard and a PCIe base expansion card looks like a smaller circuit board</li>
+        </ul>
+      </li>
+      <li>Form Factor:  There are different size of motherboards that are available today. These sizes of form factors determine the amount of stuff we can put in it and the amount of space we’ll have
+        <ul>
+          <li><strong>ATX</strong>: Advanced Technology Extended</li>
+          <li><strong>ITX</strong>:  Information Technology Extended, much smaller than ATX</li>
+          <li>mini-ITX, nano-ITX and pico-ITX</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Storage</strong>
+    <ul>
+      <li>The smallest unit of a data storage is a bit</li>
+      <li>8 bits= 1 byte, a single byte can hold a letter, number or a symbol</li>
+      <li>Two basic types of disk drive: HDD and SSD
+ ATA interfaces: Advanced Technology Attachment
+        <ul>
+          <li>Serial ATA (SATA): hot swappable: you don’t have to turn of your machine to plug in SATA</li>
+          <li>NVMe : Non volatile memory express, Instead of using a cable to connect your drive to your machine, the drive was added as an expansion slot, which allows for greater throughput of data and increased efficiency</li>
+        </ul>
+      </li>
+      <li><strong>What is the difference between kB and KB?</strong>
+        <ul>
+          <li>kB=1000 bytes where as KB=1024 bytes (This binary interpretation of metrics prefixes is still prominently used by Microsoft Windows)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Power Supplies</strong>
+    <ul>
+      <li>PSU: Power Supplies Unit</li>
+      <li>Windows: battery report</li>
+    </ul>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  powercfg /batteryreport [ /duration days ]
+</code></pre></div>    </div>
+    <ul>
+      <li>Read more about batteries and charge cycle for  <a href="https://docs.microsoft.com/windows-hardware/design/device-experiences/powercfg-command-line-options#option_batteryreport">Windows</a> or <a href="https://support.apple.com/HT201585">Macs.</a></li>
+      <li>Learn how to maximize your batteries for <a href="https://www.apple.com/batteries/maximizing-performance/">iOS </a>or <a href="https://support.google.com/android/answer/7664358">Android.</a></li>
+    </ul>
+  </li>
+  <li><strong>Mobile Devices</strong>
+    <ul>
+      <li>SoC: System on a chip, a system on a chip packs the CPU, RAM, and sometimes even the storage onto a single chip</li>
+    </ul>
+  </li>
+  <li><strong>Peripherals</strong>
+    <ul>
+      <li>USB: Universal Serial Bus
+        <ul>
+          <li>USB 2.0 : Transfer speeds of 480 Mb/s, color: Black</li>
+          <li>USB 3.0 : Transfer speeds of 5 Gb/s, color: Blue</li>
+          <li>USB 3.1 : Transfer speeds of 10 Gb/s, color: Teal</li>
+          <li><strong>Note</strong>: <em>MB is megabyte or unit of data storage, while Mb/s is a megabit per sec, which is a unit of data transfer rate</em></li>
+          <li>Type C connector</li>
+          <li>More about the USB <a href="https://en.wikipedia.org/wiki/USB">here</a></li>
+        </ul>
+      </li>
+      <li><a href="https://en.wikipedia.org/wiki/Digital_Visual_Interface#Connector">DVI</a> : Digital Visual Interface</li>
+      <li><a href="https://en.wikipedia.org/wiki/HDMI#Connectors">HDMI</a>: High Definition Multimedia Interface</li>
+      <li><a href="https://en.wikipedia.org/wiki/VGA_connector">VGA connector</a> : Video Graphic Array</li>
+      <li><a href="https://en.wikipedia.org/wiki/DisplayPort#Full-size_DisplayPort_connector">Display Port</a></li>
+      <li>Connecting projector to computer
+        <ul>
+          <li><a href="https://support.microsoft.com/help/27911/windows-10-connect-to-a-projector-or-pc">Windows - How to connect to a projector or PC</a></li>
+          <li><a href="https://support.apple.com/guide/mac-help/mchl5fdd37ce/mac">MacOS - How to connect a display, TV or projector to Mac</a></li>
+          <li><a href="https://help.ubuntu.com/stable/ubuntu-help/display-dual-monitors.html">Ubuntu - How to connect another monitor to your computer</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+:ET

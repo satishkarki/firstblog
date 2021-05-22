@@ -1,4 +1,4 @@
-I"e<p>This blog is about the <strong>“Google IT Support Professional Certificate”</strong> which is available in <a href="https://www.coursera.org/professional-certificates/google-it-support">Coursera</a>. There are 5 Courses in this Professional Certificate.</p>
+I"Y <p>This blog is about the <strong>“Google IT Support Professional Certificate”</strong> which is available in <a href="https://www.coursera.org/professional-certificates/google-it-support">Coursera</a>. There are 5 Courses in this Professional Certificate.</p>
 <ul>
   <li><a href="https://www.coursera.org/learn/technical-support-fundamentals?specialization=google-it-support">Technical Support Fundamentals</a></li>
   <li><a href="https://www.coursera.org/learn/computer-networking?specialization=google-it-support">The Bits and Bytes of Computer Networking</a></li>
@@ -21,16 +21,10 @@
       <li>Connection points that we can  connect devices to that extend the functionality of our computers</li>
     </ul>
   </li>
-  <li>
-    <p><strong>External Data Bus</strong></p>
-
+  <li>External Data Bus
     <ul>
-      <li>
-        <p>It is a row of wires that interconnects the parts of the computers , kind of the veins in our body. The EDB comes in different sizes, 8 bit, 16 bit, 32, even 64.</p>
-      </li>
-      <li>
-        <p>Right now, were just going to stick with using an EDB with 8 bits in our examples. Sending 1 byte at a time.</p>
-      </li>
+      <li>It is a row of wires that interconnects the parts of the computers , kind of the veins in our body. The EDB comes in different sizes, 8 bit, 16 bit, 32, even 64.</li>
+      <li>Right now, were just going to stick with using an EDB with 8 bits in our examples. Sending 1 byte at a time.</li>
     </ul>
   </li>
   <li><strong>Registers</strong>
@@ -58,22 +52,12 @@
       <li>Cache is smaller than RAM, but it let’s us store data that we use often, and let’s us quickly reference it. There are three different cache levels in a CPU, L1, L2, and L3. <strong>L1 is the smallest and fastest cache.</strong></li>
     </ul>
   </li>
-  <li>
-    <p><strong>Clock</strong></p>
-
+  <li><strong>Clock</strong>
     <ul>
-      <li>
-        <p>Our CPU has an internal clock that keeps its operational in sync. It connects to a special wire called Clock wire. When you send or receive data, it sends a voltage to that clock wire to let the CPU know it can start doing calculations. Think of our clock wires as the ticking of a clock. For every tick, the CPU does one cycle of operations. When you send a voltage to the clock wire, it’s referred to as a clock cycle. If you have lots of data you need to process in a command. You need to run lots of clock cycles.</p>
-      </li>
-      <li>
-        <p>CPU labeled with 3.4 ghz refers to the clock speed of the CPU, i.e. 3.4 billion cycles per seconds</p>
-      </li>
-      <li>
-        <p><a href="https://downloadcenter.intel.com/download/29183/Intel-Extreme-Tuning-Utility-Intel-XTU-">Intel CPU: Extreme Tuning Utility</a> download link. Even if we are not overclocking, it is a great tool to monitor the CPU load, temperature and run benchmark.</p>
-      </li>
-      <li>
-        <p><a href="https://www.digitaltrends.com/computing/how-to-overclock-your-cpu/">Overclocking</a> is used by gamers. Normally the CPU speed is less than its maximum limits but gamers increases it for more performance.</p>
-      </li>
+      <li>Our CPU has an internal clock that keeps its operational in sync. It connects to a special wire called Clock wire. When you send or receive data, it sends a voltage to that clock wire to let the CPU know it can start doing calculations. Think of our clock wires as the ticking of a clock. For every tick, the CPU does one cycle of operations. When you send a voltage to the clock wire, it’s referred to as a clock cycle. If you have lots of data you need to process in a command. You need to run lots of clock cycles</li>
+      <li>CPU labeled with 3.4 ghz refers to the clock speed of the CPU, i.e. 3.4 billion cycles per seconds</li>
+      <li><a href="https://downloadcenter.intel.com/download/29183/Intel-Extreme-Tuning-Utility-Intel-XTU-">Intel CPU: Extreme Tuning Utility</a> download link. Even if we are not overclocking, it is a great tool to monitor the CPU load, temperature and run benchmark</li>
+      <li><a href="https://www.digitaltrends.com/computing/how-to-overclock-your-cpu/">Overclocking</a> is used by gamers. Normally the CPU speed is less than its maximum limits but gamers increases it for more performance</li>
     </ul>
   </li>
 </ul>
@@ -81,13 +65,9 @@
 <h2 id="components">Components</h2>
 
 <ul>
-  <li>
-    <p><strong>CPU</strong></p>
-
+  <li><strong>CPU</strong>
     <ul>
-      <li>
-        <p>Instruction sets are hard-coded into our CPU. So different CPU manufacturers may use different instructions sets. By instruction means additions, subtraction</p>
-      </li>
+      <li>Instruction sets are hard-coded into our CPU. So different CPU manufacturers may use different instructions sets. By instruction means additions, subtraction</li>
       <li>There are two types of  CPU sockets
         <ul>
           <li><strong>Land Grid Array</strong> LGA : Pins stick out of Motherboard</li>
@@ -95,43 +75,27 @@
         </ul>
       </li>
       <li>32 bits and 64 bits architecture</li>
-      <li><a href="https://en.wikipedia.org/wiki/64-bit_computing#32-bit_vs_64-bit…">64 bit computing</a></li>
+      <li>64 bit computing](https://en.wikipedia.org/wiki/64-bit_computing#32-bit_vs_64-bit…)</li>
     </ul>
   </li>
-  <li>
-    <p><strong>RAM</strong></p>
-
+  <li><strong>RAM</strong>
     <ul>
       <li>Almost all RAM is volatile, which means that once we power off our machines, the data stored in RAM is cleared.</li>
       <li>DRAM: Dynamic Random Access Memory</li>
+      <li>Memory Sticks:  it is where the DRAM is placed. DIMM (Dual inline Memory Module) , SDRAM (Synchronous DRAM) is synchronized to our system’s clock speed allowing faster processing of data, <strong>DDR SDRAM</strong> (Double data rate SDRAM)  DDR1 , DDR 2, DDR 3 and now DDR 4.</li>
     </ul>
-
-    <blockquote>
-      <p>Memory Sticks:  it is where the DRAM is placed. DIMM (Dual inline Memory Module) , SDRAM (Synchronous DRAM) is synchronized to our system’s clock speed allowing faster processing of data, <strong>DDR SDRAM</strong> (Double data rate SDRAM) ….DDR1 , DDR 2, DDR 3 and now DDR 4.</p>
-    </blockquote>
   </li>
-  <li>
-    <p><strong>Motherboard</strong></p>
-
+  <li><strong>Motherboard</strong>
     <ul>
-      <li>
-        <p>Made of chipset. Made of two chips:</p>
-
+      <li>Made of chipset. Made of two chips:
         <ul>
           <li><strong>Northbridge</strong> : interconnects stuff like RAM and video cards</li>
           <li><strong>Southbridge</strong> : maintains our IO or input/output controllers, like hard drives and USB devices that input and output data</li>
+          <li><strong>Expansion Slots</strong>:  give us the ability to increase the functionality of our computer. If you want to upgrade your graphics card, you could purchase one and just install it on your motherboard through the expansion slot</li>
+          <li>The standard for an expansion slot today is the <strong>PCI Express or Peripheral Component Interconnect Express</strong>. A PCIe bus looks like a slot on the motherboard and a PCIe base expansion card looks like a smaller circuit board</li>
         </ul>
       </li>
-      <li>
-        <p><strong>Expansion Slots</strong>:  give us the ability to increase the functionality of our computer. If you want to upgrade your graphics card, you could purchase one and just install it on your motherboard through the expansion slot</p>
-
-        <blockquote>
-          <p>The standard for an expansion slot today is the <strong>PCI Express or Peripheral Component Interconnect Express</strong>. A PCIe bus looks like a slot on the motherboard and a PCIe base expansion card looks like a smaller circuit board</p>
-        </blockquote>
-      </li>
-      <li>
-        <p>Form Factor:  There are different size of motherboards that are available today. These sizes of form factors determine the amount of stuff we can put in it and the amount of space we’ll have</p>
-
+      <li>Form Factor:  There are different size of motherboards that are available today. These sizes of form factors determine the amount of stuff we can put in it and the amount of space we’ll have
         <ul>
           <li><strong>ATX</strong>: Advanced Technology Extended</li>
           <li><strong>ITX</strong>:  Information Technology Extended, much smaller than ATX</li>
@@ -140,8 +104,23 @@
       </li>
     </ul>
   </li>
-  <li>
-    <p><strong>Storage</strong></p>
+  <li><strong>Storage</strong>
+    <ul>
+      <li>The smallest unit of a data storage is a bit</li>
+      <li>8 bits= 1 byte, a single byte can hold a letter, number or a symbol</li>
+      <li>Two basic types of disk drive: HDD and SSD
+ ATA interfaces: Advanced Technology Attachment
+        <ul>
+          <li>Serial ATA (SATA): hot swappable: you don’t have to turn of your machine to plug in SATA</li>
+          <li>NVMe : Non volatile memory express, Instead of using a cable to connect your drive to your machine, the drive was added as an expansion slot, which allows for greater throughput of data and increased efficiency</li>
+        </ul>
+      </li>
+      <li><strong>What is the difference between kB and KB?</strong>
+        <ul>
+          <li>kB=1000 bytes where as KB=1024 bytes (This binary interpretation of metrics prefixes is still prominently used by Microsoft Windows)</li>
+        </ul>
+      </li>
+    </ul>
   </li>
 </ul>
 
