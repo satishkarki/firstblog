@@ -1,0 +1,70 @@
+I"B<p>This blog is about the <strong>“Google IT Support Professional Certificate”</strong> which is available in <a href="https://www.coursera.org/professional-certificates/google-it-support">Coursera</a>. There are 5 Courses in this Professional Certificate.</p>
+<ul>
+  <li><a href="https://www.coursera.org/learn/technical-support-fundamentals?specialization=google-it-support">Technical Support Fundamentals</a></li>
+  <li><a href="https://www.coursera.org/learn/computer-networking?specialization=google-it-support">The Bits and Bytes of Computer Networking</a></li>
+  <li><a href="https://www.coursera.org/learn/os-power-user?specialization=google-it-support">Operating Systems and You: Becoming a Power User</a></li>
+  <li><a href="https://www.coursera.org/learn/system-administration-it-infrastructure-services?specialization=google-it-support">System Administration and IT Infrastructure Services</a></li>
+  <li><a href="https://www.coursera.org/learn/it-security?specialization=google-it-support">IT Secuirty: Defense against the digital dark arts</a></li>
+</ul>
+<hr style="height:2px;border-width:0;color:blue;background-color:blue" />
+
+<p>This program prepares me for the <a href="https://www.comptia.org/certifications/a">CompTIA A+</a> exams. This blog is about the first course <a href="https://www.coursera.org/learn/technical-support-fundamentals?specialization=google-it-support">Technical Support Fundamentals</a> and summarizes the things I found useful.</p>
+<hr style="height:2px;border-width:0;color:blue;background-color:blue" />
+
+<h1 id="week-4-networking">Week 4: Networking</h1>
+
+<h2 id="basics-of-networking">Basics of Networking</h2>
+
+<ul>
+  <li>The Internet is the physical connection of computers and wires around the world</li>
+  <li>The web is the information on the Internet</li>
+  <li>When we send or receive data through a network, we need to have both an IP and a MAC address</li>
+  <li>MAC addresses are generally permanent and hard coded onto the devices</li>
+  <li>Data is sent through a network as a packet</li>
+</ul>
+
+<h2 id="network-hardware">Network Hardware</h2>
+
+<ul>
+  <li>Ethernet cable</li>
+  <li>Wi-fi</li>
+  <li>Optical Fiber</li>
+  <li>Router</li>
+  <li>Switches and Hub</li>
+</ul>
+
+<h2 id="language-of-the-internet">Language of the Internet</h2>
+
+<ul>
+  <li>IP:  It is responsible for delivering our packets to the right computers</li>
+  <li>TCP: It handles reliable delivery of information from one network to another</li>
+</ul>
+
+<h2 id="the-web">The Web</h2>
+
+<ul>
+  <li>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>www.reddit.com
+</code></pre></div>    </div>
+  </li>
+  <li>URL: Uniform Resource Locator, is just a web address similar to a home address</li>
+  <li>Domain Name: reddit is a domain name, Once a name is taken, it’ll be registered to ICANN, the Internet Corporation for Assigned Names and Numbers</li>
+</ul>
+
+<h2 id="limitations-of-the-internet">Limitations of the Internet</h2>
+
+<ul>
+  <li>History of the Internet
+    <ul>
+      <li>1960s. the US government spun up a project called DARPA</li>
+      <li>DARPA: Defense Advanced Research Projects Agency</li>
+      <li><a href="https://en.wikipedia.org/wiki/ARPANET">ARPANET</a>: Advanced Research Projects Agency Network</li>
+      <li>1970s: computer scientists Vinton Cerf and Bob Kahn, who created the method we call the Transmission Control Protocol and the Internet Protocol, or TCP/IP</li>
+      <li>1990s: a computer scientist by the name of Tim Berners-Lee invented the World Wide Web</li>
+    </ul>
+  </li>
+  <li>Even though it might seem like a lot of possible IPv4 addresses, there are less than 4.3 billion IPv4 addresses</li>
+  <li>Solution: With IPv6 there are 2 to the 128 power possible IP addresses, 2 to the 128 power is an insanely huge number</li>
+  <li>Solution: Network Address Translation</li>
+</ul>
+:ET
