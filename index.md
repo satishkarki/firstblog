@@ -4,7 +4,7 @@ title: Satish Karki
 ---
 <div class="blurb">
 	<h1>Hi there! I'm Satish Karki</h1>
-	<p>Here, I write about the things I stumbled across the boulevard of Information Technology. <a href="/about">Read more about my life...</a></p>
+	<p>Here, I write about the things I stumble across the boulevard of Information Technology. <a href="/about">Read more about my life...</a></p>
 </div><!-- /.blurb -->
 <hr style="height:2px;border-width:0;color:blue;background-color:blue">
 **Did you know?** Google receives over 63,000 searches per second on any given day. That's the average figure of how many people use Google a day, which translates into at least 5.6 billion searches per day. Pretty impressive, right? [Check it out.](https://www.internetlivestats.com/)

@@ -1,0 +1,79 @@
+I"6<p>This blog is about the <strong>“Google IT Support Professional Certificate”</strong> which is available in <a href="https://www.coursera.org/professional-certificates/google-it-support">Coursera</a>. There are 5 Courses in this Professional Certificate.</p>
+<ul>
+  <li><a href="https://www.coursera.org/learn/technical-support-fundamentals?specialization=google-it-support">Technical Support Fundamentals</a></li>
+  <li><a href="https://www.coursera.org/learn/computer-networking?specialization=google-it-support">The Bits and Bytes of Computer Networking</a></li>
+  <li><a href="https://www.coursera.org/learn/os-power-user?specialization=google-it-support">Operating Systems and You: Becoming a Power User</a></li>
+  <li><a href="https://www.coursera.org/learn/system-administration-it-infrastructure-services?specialization=google-it-support">System Administration and IT Infrastructure Services</a></li>
+  <li><a href="https://www.coursera.org/learn/it-security?specialization=google-it-support">IT Secuirty: Defense against the digital dark arts</a></li>
+</ul>
+<hr style="height:2px;border-width:0;color:blue;background-color:blue" />
+
+<p>This program prepares me for the <a href="https://www.comptia.org/certifications/a">CompTIA A+</a> exams. This blog is about the first course <a href="https://www.coursera.org/learn/technical-support-fundamentals?specialization=google-it-support">Technical Support Fundamentals</a> and summarizes the things I found useful.</p>
+<hr style="height:2px;border-width:0;color:blue;background-color:blue" />
+
+<h1 id="week-5-software">Week 5 Software</h1>
+
+<ul>
+  <li>Coding is translating one language to another</li>
+  <li>When writing code, a script is usually used to perform a single or limited-range task</li>
+  <li><strong>Types of software</strong>
+    <ul>
+      <li>Application Software: MS Word</li>
+      <li>System Software: Windows, MacOS</li>
+      <li>Firmware: Example BIOS</li>
+    </ul>
+  </li>
+  <li>Supplemental Reading on <a href="https://en.wikipedia.org/wiki/Software_versioning">Software Version</a></li>
+  <li>Complier: It compiles human readable code into machine level code</li>
+  <li>Interpreter: The script is run by an interpreter , which interprets the code into CPU instructions just in time to run them</li>
+  <li>Automation makes processes works automatically</li>
+  <li>Verifying Software Installed in Linux:
+    <ul>
+      <li>To quickly check if a program is installed on Linux, you can use the command “dpkg -s” followed by the unique package name for that program. The “-s” flag in dpkg stands for “search,” which allows you to search for a program on your machine and check if it’s installed</li>
+      <li>Example: <strong><em>dpkg -s firefox-esr</em></strong></li>
+      <li><strong><em>sudo apt-get install -f</em></strong>  This command forces an update of the package manager</li>
+      <li><strong><em>dpkg -s vlc</em></strong> This command shows the status of the installed package</li>
+      <li><strong><em>sudo apt-get update</em></strong> Many programs are in repositories that the most Linux distributions are aware of, by default. This command makes sure these repositories are up-to-date and all dependencies are fixed</li>
+      <li><strong><em>sudo apt-get install firefox-esr</em></strong> Installs the firefox</li>
+      <li><strong><em>sudo apt-get remove gimp</em></strong> command to uninstall</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-6-troubleshooting-best-practices">Week 6 Troubleshooting Best Practices</h1>
+
+<ul>
+  <li>Ask questions</li>
+  <li>Always try to create a positive experience for the user</li>
+  <li>Isolating the problem</li>
+  <li>Find the root cause</li>
+  <li>Follow the cookie crumbs</li>
+  <li>Start with the quickest step first</li>
+  <li>Customer Service
+    <ul>
+      <li>Exhibiting empathy</li>
+      <li>Being conscious of your tone</li>
+      <li>Acknowledging the person</li>
+      <li>Developing Trust</li>
+    </ul>
+  </li>
+  <li>Documentation
+    <ul>
+      <li>Tickets</li>
+      <li>Bugs</li>
+      <li>Systems to keep track of issues
+        <ul>
+          <li>Bugzilla, JIRA, Redmine</li>
+        </ul>
+      </li>
+      <li>Steps:
+        <ul>
+          <li>Document the issues</li>
+          <li>Steps and procedures you are trying to resolve</li>
+          <li>The solution you arrived at</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET

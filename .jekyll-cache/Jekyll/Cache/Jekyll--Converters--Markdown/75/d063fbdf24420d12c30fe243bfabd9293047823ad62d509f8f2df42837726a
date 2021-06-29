@@ -1,0 +1,79 @@
+I"¬<h1 id="tags">Tags</h1>
+<hr style="height:2px;border-width:0;color:blue;background-color:blue" />
+
+<div id="archives">
+
+  <div class="archive-group">
+    
+    <div id="#Vim"></div>
+    <p></p>
+
+    <h3 class="category-head">[.] Vim</h3>
+    <a name="Vim"></a>
+    
+    <article class="archive-item">
+      <h4><a href="/blog/2021/05/10/firstpost">Mastering Vim</a></h4>
+    </article>
+    
+  </div>
+
+  <div class="archive-group">
+    
+    <div id="#Google_Certificate"></div>
+    <p></p>
+
+    <h3 class="category-head">[.] Google_Certificate</h3>
+    <a name="Google_Certificate"></a>
+    
+    <article class="archive-item">
+      <h4><a href="/blog/2021/05/28/Week5">Technical Support Fundamentals: Week 5</a></h4>
+    </article>
+    
+    <article class="archive-item">
+      <h4><a href="/blog/2021/05/25/Week4">Technical Support Fundamentals: Week 4</a></h4>
+    </article>
+    
+    <article class="archive-item">
+      <h4><a href="/blog/2021/05/23/Week3">Technical Support Fundamentals: Week 3</a></h4>
+    </article>
+    
+    <article class="archive-item">
+      <h4><a href="/blog/2021/05/22/Week2">Technical Support Fundamentals: Week 2</a></h4>
+    </article>
+    
+    <article class="archive-item">
+      <h4><a href="/blog/2021/05/19/Week1">Technical Support Fundamentals: Week 1</a></h4>
+    </article>
+    
+  </div>
+
+  <div class="archive-group">
+    
+    <div id="#Random"></div>
+    <p></p>
+
+    <h3 class="category-head">[.] Random</h3>
+    <a name="Random"></a>
+    
+    <article class="archive-item">
+      <h4><a href="/blog/2021/06/28/Random_Contemplation">Why am I in IT ?</a></h4>
+    </article>
+    
+  </div>
+
+  <div class="archive-group">
+    
+    <div id="#Contemplation"></div>
+    <p></p>
+
+    <h3 class="category-head">[.] Contemplation</h3>
+    <a name="Contemplation"></a>
+    
+    <article class="archive-item">
+      <h4><a href="/blog/2021/06/28/Random_Contemplation">Why am I in IT ?</a></h4>
+    </article>
+    
+  </div>
+
+</div>
+:ET

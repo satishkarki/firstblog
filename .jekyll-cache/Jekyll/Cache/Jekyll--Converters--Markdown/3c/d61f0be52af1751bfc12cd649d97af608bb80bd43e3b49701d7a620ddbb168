@@ -1,6 +1,6 @@
-I"·<div class="blurb">
+I"q<div class="blurb">
 	<h1>Hi there! I'm Satish Karki</h1>
-	<p>Here, I write about the things I stumbled across the boulevard of Information Technology. <a href="/about">Read more about my life...</a></p>
+	<p>Here, I write about the things I stumble across the boulevard of Information Technology. <a href="/about">Read more about my life...</a></p>
 </div>
 <!-- /.blurb -->
 <hr style="height:2px;border-width:0;color:blue;background-color:blue" />
@@ -15,6 +15,14 @@
 
 <h2>Here is the list of my blog post (more of an info-retention)</h2>
 <ul>
+	
+	  <li>
+		<a href="/blog/2021/06/28/Random_Contemplation">Why am I in IT ?</a>
+	  </li>
+	
+	  <li>
+		<a href="/blog/2021/05/28/Week5">Technical Support Fundamentals: Week 5</a>
+	  </li>
 	
 	  <li>
 		<a href="/blog/2021/05/25/Week4">Technical Support Fundamentals: Week 4</a>

@@ -1,4 +1,4 @@
-I"�<h1 id="resumecv">Resume/CV</h1>
+I"K<h1 id="resumecv">Resume/CV</h1>
 <p>You can <a href="/assets/cv/Satish_Karki_Resume.pdf">download</a> my Resume from here…..</p>
 <hr style="height:2px;border-width:0;color:blue;background-color:blue" />
 
@@ -32,7 +32,7 @@
 
 <h2 id="projects">Projects</h2>
 <ul>
-  <li>SMBGhost aka CoronaBlue Attack: Performed the Remote Code Execution vulnerability in Windows 10 having SMB 3.1.1 version…..<a href="/assets/SMBGhost.pdf">view report</a></li>
+  <li>SMBGhost aka CoronaBlue Attack: Performed the Remote Code Execution vulnerability in Windows 10 having SMB 3.1.1 version…..<a href="/assets/cv/projects/SMBGhost.pdf">view report</a></li>
   <li>Offensive Security <strong>Penetration Test</strong> on vulnerale Windows and Ubuntu Machines…..<a href="/assets/cv/projects/offensive_test.pdf">view report</a></li>
   <li>Business Case Study: Contingency Planning &amp; <strong>Disaster Recovery</strong>…..<a href="/assets/cv/projects/Business_Case_Study.pdf">view presentation</a></li>
   <li>Slow Loris Attack: Performed the DDoS attack in lab environment and analyzed the log using <strong>Log Analyzer</strong>, <strong>LibreNMS</strong>…..<a href="/assets/cv/projects/Slow_Loris_Attack.pdf">View Presentation</a></li>
@@ -48,7 +48,9 @@
 
 <h2 id="honors">Honors</h2>
 <ul>
-  <li>Georgian College <strong>Dean’s List</strong> for the Winter 2020 semester…..<a href="/assets/cv/honors/Winter2020.pdf">View Letter</a></li>
-  <li>Georgian College <strong>Dean’s List</strong> for the Fall 2020 semester…..<a href="/assets/cv/honors/Fall_2020.pdf">View Letter</a></li>
+  <li>Georgian College <strong>Dean’s List</strong> named for the Winter 2021 Information System Security Semester Two…..<a href="/assets/cv/honors/Winter2021.pdf">View Letter</a></li>
+  <li>Georgian College <strong>Dean’s List</strong> named for the Fall 2020 Information System Security Semester One…..<a href="/assets/cv/honors/Fall2020.pdf">View Letter</a></li>
+  <li>Georgian College <strong>Dean’s List</strong> named for the Winter 2020 Big Data Analytics Semester Two…..<a href="/assets/cv/honors/Winter2020.pdf">View Letter</a></li>
+  <li>Georgian College <strong>Dean’s List</strong> named for the Fall 2019 Big Data Analytics Semester One…..<a href="/assets/cv/honors/Fall2019.pdf">View Letter</a></li>
 </ul>
 :ET

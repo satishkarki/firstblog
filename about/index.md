@@ -15,6 +15,6 @@ I did a Bachelor of Electrical & Electronics Engineering from [Kathmandu Univers
 
 During my time in Georgian College, I used to work part-time in Firehouse Subs. If you ever go to the Firehouse Subs, try ordering "Italian". You will devour it in one bite.
 
-Let's talk about hobbies. I love football. By football, I mean "Soccer". I am a huge admirer of [Manchester United](https://www.manutd.com/) (*Although, the hyperlink is blue, remember Manchester is always Red !!!* ). Recently, I started supporting Toronto Raptors. We the North. 
+Let's talk about hobbies. I love football. By football, I mean "Soccer". I am a huge admirer of [Manchester United](https://www.manutd.com/) (*Although, the hyperlink is blue, remember Manchester is always Red !!!* ). Recently, I started supporting Toronto Raptors. 
 
 I don't want to make it more boring and above all myself vulnerable by telling you more about my life. After all, human emotion and interaction are reduced to nothing more than data. Peace !!! 
