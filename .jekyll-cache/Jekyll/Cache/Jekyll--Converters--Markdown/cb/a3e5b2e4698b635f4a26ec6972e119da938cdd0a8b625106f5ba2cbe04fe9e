@@ -1,4 +1,4 @@
-I"q<div class="blurb">
+I"á<div class="blurb">
 	<h1>Hi there! I'm Satish Karki</h1>
 	<p>Here, I write about the things I stumble across the boulevard of Information Technology. <a href="/about">Read more about my life...</a></p>
 </div>
@@ -15,6 +15,10 @@
 
 <h2>Here is the list of my blog post (more of an info-retention)</h2>
 <ul>
+	
+	  <li>
+		<a href="/blog/2021/08/16/How_to_manage_Debian_Packages">How To Manage Debian Packages</a>
+	  </li>
 	
 	  <li>
 		<a href="/blog/2021/06/28/Random_Contemplation">Why am I in IT ?</a>

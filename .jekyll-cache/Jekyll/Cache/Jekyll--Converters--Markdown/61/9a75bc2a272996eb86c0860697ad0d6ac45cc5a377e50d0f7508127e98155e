@@ -1,0 +1,185 @@
+I"�<hr />
+
+<p><strong>You can download it from the web browser. So, why go through the trouble of downloading it in the terminal? Well, next time you will have the superpower to download anything, the cool way.</strong></p>
+
+<p>The command I am using is <strong>wget</strong> and the URL passed to it is the repository location of <strong>.deb</strong> file.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+</code></pre></div></div>
+
+<p><strong>wget command syntax</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget [options] [URL]
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">OPTIONS</th>
+      <th style="text-align: left">DESCRIPTION</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">wget -O <em>filename</em> URL</td>
+      <td style="text-align: left">Saving the downloaded file under a different name</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">wget -P <em>file path</em> URL</td>
+      <td style="text-align: left">Downloading a File to a Specific Directory</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">wget –limit-rate=<em>1m</em> URL</td>
+      <td style="text-align: left">Limiting the download speed , 1m means 1 megabyte, 1k means 1 kilobyte, 1g means 1 gigabyte</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">wget -c URL</td>
+      <td style="text-align: left">Resuming a download</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">wget -b URL</td>
+      <td style="text-align: left">Downloading in Background</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">tail -f wget-log</td>
+      <td style="text-align: left">By default, the output is redirected to wget-log file in the current directory. To watch the status of the download, use the tail command</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>These were some of the basic options with wget. We can change the Wget User-Agent, download multiple files, download via FTP, Create a mirror of a Website, skip certificate check, download to the standard output. Here is the <a href="https://www.gnu.org/software/wget/manual/wget.html">GNU Wget’s dirty manual</a>.</p>
+
+<hr />
+
+<p>Now we have downloaded the file, we need to install the Debian package. <strong>dpkg</strong> is the package manger for Debian.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dpkg [options...] action
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Function</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>dpkg -i <em>package_file.deb</em></td>
+      <td>Install package</td>
+    </tr>
+    <tr>
+      <td>sudo apt -f install</td>
+      <td>to fix the unmet dependency issues once a debian package is installed</td>
+    </tr>
+    <tr>
+      <td>dpkg -I <em>/path/to/file.deb</em></td>
+      <td>List all dependencies of a Deb file</td>
+    </tr>
+    <tr>
+      <td>dpkg-deb -c <em>/path/to/file.deb</em></td>
+      <td>List all the files that will be installed from a deb package</td>
+    </tr>
+    <tr>
+      <td>dpkg-deb –extract <em>/path/to/file.deb</em></td>
+      <td>Extract all files from a deb package</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Learn more about it <a href="https://linuxhint.com/manual_install_deb_package_cli_ubuntu/">here</a> .</p>
+
+<hr />
+
+<p>We can use apt to install the Debian package as well</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt 
+</code></pre></div></div>
+
+<p>Most of the apt command must be run as a user with sudo privileges. apt-get and apt-cache are backward compatible between the different versions and have more options and features.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Function</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sudo apt list</td>
+      <td>Listing packages</td>
+    </tr>
+    <tr>
+      <td>sudo apt list –installed</td>
+      <td>List installed packages only</td>
+    </tr>
+    <tr>
+      <td>sudo apt search package_name</td>
+      <td>Searching packages</td>
+    </tr>
+    <tr>
+      <td>sudo apt show package_name</td>
+      <td>Package Information</td>
+    </tr>
+    <tr>
+      <td>sudo apt list –upgradeable</td>
+      <td>List all upgrade able packages</td>
+    </tr>
+    <tr>
+      <td>sudo apt update</td>
+      <td>Updating package index</td>
+    </tr>
+    <tr>
+      <td>sudo apt upgrade</td>
+      <td>upgrading the packages to their latest versions</td>
+    </tr>
+    <tr>
+      <td>sudo apt upgrade <em>package_name</em></td>
+      <td>upgrade a single package</td>
+    </tr>
+    <tr>
+      <td>sudo apt full-upgrade</td>
+      <td>It will remove the installed packages if that is needed to upgrade the whole system</td>
+    </tr>
+    <tr>
+      <td>sudo apt install <em>Package_name 1</em> <em>Package_name 2</em></td>
+      <td>Installing packages</td>
+    </tr>
+    <tr>
+      <td>sudo apt install <em>/full/path/file.deb</em></td>
+      <td>To install local deb file</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>Let’s delete the packages now</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Function</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sudo apt remove package_name</td>
+      <td>Removing Package</td>
+    </tr>
+    <tr>
+      <td>sudo apt purge package_name</td>
+      <td>It will remove package file including all configuration files</td>
+    </tr>
+    <tr>
+      <td>sudo apt autoremove</td>
+      <td>Remove Unused Packages</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Learn more about apt <a href="https://linuxize.com/post/how-to-use-apt-command/[">here</a></p>
+
+:ET
